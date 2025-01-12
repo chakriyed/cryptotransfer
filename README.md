@@ -45,6 +45,9 @@ Make sure your MetaMask is configured for Polygon Amoy Testnet:
 - Currency Symbol: POL
 - Block Explorer: https://www.oklink.com/amoy
 
+Use contact address : 0x932d60E605293da00724AD6AcDEBa7C3157A1C10
+This has already been deployed on the polygon testnet.
+
 ## Smart Contracts
 
 The project includes two main contracts:
@@ -52,7 +55,7 @@ The project includes two main contracts:
 - `MyContract.sol`: Basic ERC-20 implementation
 - `MyToken.sol`: OpenZeppelin-based ERC-20 token
 
-### Deploying Contracts
+### Deploying Contracts 
 
 ```bash
 npx hardhat run scripts/deploy.js --network amoy
