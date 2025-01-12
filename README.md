@@ -102,7 +102,7 @@ The application allows you to connect your wallet, send POL tokens, and monitor 
 
 <img width="450" alt="Screenshot 2025-01-12 at 7 26 11 PM" src="https://github.com/user-attachments/assets/369826ae-0f97-424f-8fa7-b5fe4aca8383" />
 
-<img width="250" alt="Screenshot 2025-01-12 at 7 14 33 PM" src="https://github.com/user-attachments/assets/9cb8062b-7b30-48d1-b532-6f07cd98ab70" />
+<img width="400" alt="Screenshot 2025-01-12 at 7 14 33 PM" src="https://github.com/user-attachments/assets/9cb8062b-7b30-48d1-b532-6f07cd98ab70" />
 
 <img width="700" alt="Screenshot 2025-01-12 at 5 33 32 PM" src="https://github.com/user-attachments/assets/3273583a-a3e4-4ca2-b0e3-964321190e03" />
 
