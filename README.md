@@ -45,7 +45,7 @@ Make sure your MetaMask is configured for Polygon Amoy Testnet:
 - Currency Symbol: POL
 - Block Explorer: https://www.oklink.com/amoy
 
-Use contact address : 0x932d60E605293da00724AD6AcDEBa7C3157A1C10
+Use contact address : 0x932d60E605293da00724AD6AcDEBa7C3157A1C10             
 This has already been deployed on the polygon testnet.
 
 ## Smart Contracts
