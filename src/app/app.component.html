@@ -1,0 +1,37 @@
+<div class="container">
+  <h1>Send Crypto Tokens</h1>
+
+  <!-- Wallet Connection Section -->
+  <button (click)="connectWallet()">Connect Wallet</button>
+  <p *ngIf="connectedAddress">Connected Wallet: {{ connectedAddress }}</p>
+  <p *ngIf="balance">POL Balance: {{ balance }}</p>
+  <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+  <!-- Token Transfer Form -->
+  <form (ngSubmit)="sendTransaction()">
+    <label for="recipient">Recipient Wallet Address:</label>
+    <input id="recipient" type="text" [(ngModel)]="recipient" name="recipient" required />
+
+    <label for="amount">Token Amount:</label>
+    <input id="amount" type="number" [(ngModel)]="amount" name="amount" required />
+
+    <label for="contractAddress">Token Contract Address (Optional):</label>
+    <input id="contractAddress" type="text" [(ngModel)]="contractAddress" name="contractAddress" />
+
+    <button type="submit">Send Tokens</button>
+  </form>
+
+  <!-- Transaction Result -->
+  <p *ngIf="transactionHash">Transaction Hash: <a [href]="'https://amoy.polygonscan.com/tx/' + transactionHash" target="_blank">{{ transactionHash }}</a></p>
+
+  <!-- Token Balance Section -->
+  <div class="token-balance-section">
+    <label for="contractAddress">Token Contract Address:</label>
+    <input id="contractAddress" type="text" [(ngModel)]="contractAddress" name="contractAddress" placeholder="Enter token contract address" />
+    <button (click)="checkBalance()">Check Token Balance</button>
+    
+    <p *ngIf="tokenBalance">
+      Token Balance: {{ tokenBalance }} {{ tokenSymbol }}
+    </p>
+  </div>
+</div>
